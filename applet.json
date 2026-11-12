@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "linspectacles-file-handles",
+  "name": "File Handles",
+  "version": "0.0.8",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "order": 26,
+  "entrypoint": "file_handles/applet.py",
+  "factory": "create_applet",
+  "standalone": "standalone.py",
+  "description": "Read-only system-wide Linux file-description allocation, descriptor ceilings, inode-cache and dentry-cache inspection using procfs.",
+  "platforms": [
+    "linux"
+  ],
+  "read_only": true,
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/file-handles"
+}
